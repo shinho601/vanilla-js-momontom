@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Something</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="index.css" />
-</head>
+  </head>
 
-<body>
-    <div class="js-clock">
-        <h1>00:00</h1>
+  <body>
+    <div class="container-weather">
+      <div class="js-weather"></div>
     </div>
-    <form class="js-form form">
+
+    <div class="container">
+      <div class="js-clock">
+        <h1>00:00</h1>
+      </div>
+      <form class="js-form form">
         <input type="text" placeholder="What is your name?" />
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      <form class="js-toDoForm">
         <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList">
-    </ul>
+      </form>
+      <ul class="js-toDoList"></ul>
+    </div>
+
     <script src="clock.js"></script>
     <script src="gretting.js"></script>
     <script src="todo.js"></script>
     <script src="bg.js"></script>
-</body>
-
+    <script src="weather.js"></script>
+  </body>
 </html>
